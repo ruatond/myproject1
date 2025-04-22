@@ -1,1 +1,5 @@
-fd
+curl -X GET http://localhost:5000/items
+curl -X GET http://localhost:5000/items/2
+curl -X POST http://localhost:5000/items/new_item
+curl -X PUT http://localhost:5000/items/3/updated_name
+curl -X DELETE http://localhost:5000/items/4
